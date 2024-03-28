@@ -1,8 +1,9 @@
 Our wordle game will run in terminal. To begin, we will print "Let's BCOG wordle!" and asks for a first guess of a five-letter word. Terminal will print "Guess 1:" and the user will be asked to type their first guess. 
 The user will then recieve the the word they guessed with colors that represent correctly placed, misplaced, and wrong letters.
-Green letters are correctly placed, yellow letters are in the word, but misplaced, and white letters are not in the word. 
-Once the user has successfully completed the wordle. "Congratulations, you have completed the wordle in X guesses". 
-The user will then be prompted to play again or exit the game. 
+Green letters are correctly placed, yellow letters are in the word but misplaced, and white letters are not in the word. 
+Once the user has completed the wordle, "Congratulations, you have completed the wordle in X guesses" with the word given back in all green letters. 
+If the user does not guess the word correctly in 6 guesses, "Sorry, the wordle was (insert word)".
+The user will then be prompted to play again or exit the game.
 
 Word list (tentative) :
 1. Brain
