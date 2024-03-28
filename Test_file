@@ -1,0 +1,4 @@
+Our wordle game will run in terminal. To begin, we will print "Let's BCOG wordle!" and asks for a first guess of a five-letter word. Terminal will print "Guess 1:" and the user will be asked to type their first guess. 
+If the first guess is wrong, "Incorrect" will be printed on the screen. The user will also recieve the letters in their first guess that are correctly places, misplaced, or wrong.
+The user will then be prompted to make their second guess. This process will continue until the user has guessed the five-letter bcog word correctly. 
+When the user guesses correclty, "Correct!" will be printed on the screen.
