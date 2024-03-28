@@ -4,36 +4,3 @@ Green letters are correctly placed, yellow letters are in the word but misplaced
 Once the user has completed the wordle, "Congratulations, you have completed the wordle in X guesses" with the word given back in all green letters. 
 If the user does not guess the word correctly in 6 guesses, "Sorry, the wordle was (insert word)".
 The user will then be prompted to play again or exit the game.
-
-Word list (tentative) :
-1. Brain
-2. Neuro
-3. Nerve
-4. Motor
-5. Codes
-6. Index
-7. Minds
-8. Human
-9. Ethic
-10. Input
-11. Logic
-12. Debug
-13. Focus
-14. Spine
-15. Think
-16. React
-17. Freud
-18. Pupil
-19. Touch
-20. Taste
-21. Sense
-22. Dream
-23. Skill
-24. Trait
-25. Scent
-26. Sight
-27. Smell
-28. Organ
-29. Gland
-30. Psych
-31. Broca
