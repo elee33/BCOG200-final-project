@@ -14,7 +14,7 @@ def nltk_word():
     pass # You can add code here if needed
 
 def read_word():
-    with open("words.txt") as f:
+    with open("wordle.txt") as f:
         words = f.read().splitlines()
     return random.choice(words)
 
