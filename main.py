@@ -1,14 +1,4 @@
-"""
-Title: Wordle (Python)
-Programmer: Mihika Sakharpe, twelve years old
-Description: This program is the popular Wordle 
-game coded in the Python language. Users choose their
-language (English or Spanish) and enter five-letter
-words to try to guess the mystery word, chosen randomly 
-by the computer. Through a for loop, only six tries are 
-allowed, much like the original version of Wordle.
-NOTE: For Spanish words, accents DO NOT count.
-"""
+
 
 # Gets the 'random' and 'time' libraries
 import random 
