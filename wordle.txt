@@ -1,29 +1,30 @@
- brain
- neuro
- nerve
- motor
- codes
- index
- minds
- human
- ethic
- input
- logic
- debug
- focus
- spine
- think
- react
- freud
- pupil
- touch
- taste
- sense
- dream
- trait
- scent
- sight
- organ
- gland
- psych
- broca
+brain
+neuro
+nerve
+motor
+codes
+index
+minds
+human
+ethic
+input
+logic
+debug
+focus
+spine
+think
+react
+freud
+pupil
+touch
+taste
+sense
+dream
+trait
+scent
+sight
+organ
+gland
+psych
+broca
+model
