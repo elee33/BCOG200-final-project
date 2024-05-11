@@ -1,4 +1,6 @@
-1. For our project, we want to create a standard 5-letter wordle game with different categorical options that apply to our bcog200 course! The user will be able to select a category that the word will be from and receive 5 chances to guess the wordle correctly. After each guess, the user will receive an output of which letters they correctly guessed and if their position in the word is correct. 
+Python Wordle Game: BCOG Edition
+
+1. For our BCOG200 course project, we have developed a Wordle game specifically themed around neuroscience and psychology. This Python-based game challenges players to guess a 5-letter word correctly within six attempts. The words are chosen from various categories relevant to our course content. After each guess, the player receives feedback through colors that indicate whether the letters are correct, misplaced, or incorrect. This version of Wordle is designed not only to be fun but also to enhance the player’s knowledge of BCOG-related terms.
 
 2. 3 Functions:
   a. Choose Category Function - The user will be able to select from various psychology or neuroscience categories that their word will be from.
@@ -11,12 +13,19 @@
   a. The functions will be split up evenly, but we will collaborate to debug code. Each person will be responsible for 3-4 Functions of their choosing. 
   b. We will meet biweekly and discuss during class time to delegate work/responsibilities. Once a week, we will meet over the weekend to have time accounted for to work together on our project. 
 
+5. Documentation/Outline of our game:
+We have created a Wordle game that tests and expands the user's knowledge of BCOG-related terms from this and previous courses. Inspired by the classic New York Times Wordle, our game requires players to type in a 5-letter word from a provided word bank, which includes terms such as "brain," "nerve," and "ethic." The game supports both English and Spanish, allowing players to choose their preferred language at the start, which affects the word bank used during gameplay.
 
-Documentation/Outline of our game: 
-We will be creating a wordle game that tests the user's knowlwedge of BCOG related terms that we have learned throughout this course and previous courses. 
-Wordle is not only a popular game that many people play daily, but it is stimulatory for the brain and a good exercise. Our wordle game models the classic wordle from the New York Times, with the user having to type in a 5 letter word and receiving different colors (red, green, yellow) representing incorrect, correct, and misplaced letters. 
-Our input data in the code will include a txt file of 5 letter BCOG related terms. 
-In the code to guess a word, we will use a for function that includes an if guess to print colored letters green, and elif guess to print colored letters yellow and then 'else' to print the guess. 
-If input word equals the correct word, then "Congrats! You got the wordle in {a certain amount of words}" will print in red. 
-There will then be a print phrase "want to play again?" or "Type q to exit the game", for the user to follow.
-Further on, we may use Tkinter or another python module to set up a visual of our wordle game in a 5x5 grid with the letters and corresponding colors depending on the guesses. 
+The game interface, developed in Python, provides feedback using colors—green for correct letters in the correct place, yellow for correct letters in the wrong place, and white for incorrect letters. If the player guesses the word correctly, the game congratulates them with a message in red, and asks if they wish to play again or exit. For incorrect attempts, the game informs the player of the correct word after their final guess and offers them a chance to try again or exit.
+
+Our initial implementation runs in a terminal, but future enhancements might include implementing a graphical interface using Tkinter or another Python module. This interface would display a 5x5 grid, making the gameplay visually similar to the New York Times version, with letters and their corresponding colors based on the player’s guesses. The addition of the Spanish version not only broadens the accessibility of our game but also enhances the learning experience for students who are native Spanish speakers or are learning the language.
+
+## Game Rules
+1. Start the game by entering your name and selecting your preferred language.
+2. Choose a 5-letter word from the prompted word bank.
+3. You have 6 attempts to guess the right word. After each guess, the game will indicate which letters are correct or misplaced.
+4. After 6 attempts, the game will reveal the correct word if not already guessed.
+5. Players can choose to play again or exit the game after completing a wordle.
+
+## Installation
+To run this game, you'll need Python installed on your machine. Clone this repository and run `main.py` in your terminal or command prompt.
